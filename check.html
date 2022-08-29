@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>MEY TEAM</title>
+</head>
+<body>
+     <!-- start of header -->
+     <header>
+        <div class="sear">
+          <input type="text" placeholder="Search" class="search" />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="title">
+          <h2>YEM STORE</h2>
+        </div>
+        <div class="icons">
+          <i class="fa-solid fa-user"></i>
+          <i class="fa-regular fa-heart"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+          <i class="fa-solid fa-2"></i>
+        </div>
+      </header>
+      <!-- end of header -->
+  
+      <!-- start navbar -->
+      <nav>
+        <a href="home.html" class="active">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="shop.html">SHOP</a>
+        <a href="catalogue.html">CATALOGUE</a>
+        <a href="new-arrival.html">NEW ARRIVALS</a>
+        <a href="#footer">CONTACT</a>
+      </nav>
+      <!-- end nav -->
+      <pre> <span style="color: purple; "> Home </span> / <span style="color: purple;"> Cart </span> / Checkout</pre>
+
+      <p class="beggining">  Returning customer ?  <span style="color: purple;"> Click here </span>  to login</p>
+
+      <!-- start section check -->
+      <section class="check">
+        <div class="left_side">
+          <h2>
+            Billing Details
+          </h2>
+            <fieldset>
+                <form action="" method="post" class="forma">
+                    <label for="" class="country">Country</label>
+                    <i class="fa-solid fa-star"></i>
+                    <br>
+                    <select name="Select a countery"  id="country" required class="selection">
+                        <option value="Selectt">Select a countery</option>
+                        <option value="Austria">Austria</option>
+                        <option value="Australia">Australia</option>
+                        <option value="American">American</option>
+                        <option value="Azerbijan">Azerbijan</option>
+                        <option value="Belgium">Belgium</option>
+                        <option value="Benin">Benin</option>
+                        <option value="Bermuda">Bermuda</option>
+                        <option value="Brazil">Brazil</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Cameroon">Cameroon</option>
+                        <option value="Chile">Chile</option>
+                        <option value="China">China</option>
+                        <option value="Denimark">Denimark</option>
+                        <option value="Djibouti">Djibouti</option>
+                        <option value="Dominica">Dominica</option>
+                        <option value="Dominican">Dominican</option>
+                        <option value="Ecuador">Ecuador</option>
+                        <option value="Egypt">Egypt</option>
+                        <option value="Estonia">Estonia</option>
+                        <option value="Ethiopia">Ethiopia</option>
+                    </select>
+                    <br>
+                    <div class="names">
+                      <div class="first">
+                        <label for="" class="fname">First Name</label>
+                        <i class="fa-solid fa-star"></i>
+                        <input type="text" placeholder="First name" name="first name" required class="finput">
+                     </div>
+                     <div class="last">
+                        <label for="" class="lname">Last Name</label>
+                        <i class="fa-solid fa-star"></i>
+                        <input type="text" placeholder="Last name" name="last name" required>
+                    </div>
+                   </div>
+                   <br>
+                    <label for="">Company Name</label>
+                    <br>
+                    <input type="text" placeholder="Company" name="company" class="company">
+                    <br>
+                    <label for="" class="address">Address</label>
+                    <i class="fa-solid fa-star"></i>
+                    <br>
+                    <input type="text" placeholder="Address" name="address" required class="iaddress">
+                    <input type="text" placeholder="Admenstrat" name="admenstrate" required class="iaddress">
+                    <br>
+                    <div class="states">
+                      <div class="fistate">
+                        <label for="" class="fstate">State</label>
+                        <i class="fa-solid fa-star"></i>
+                        <input type="text" placeholder="state" name="state" required class="finput">
+                     </div>
+                     <div class="lastate">
+                        <label for="" class="posta">Posta</label>
+                        <i class="fa-solid fa-star"></i>
+                        <input type="text" placeholder="Posta" name="posta" required>
+                    </div>
+                   </div>
+                    <br>
+                    <div class="emails">
+                      <div class="em">
+                        <label for="" class="fem">Email</label>
+                        <i class="fa-solid fa-star"></i>
+                        <input type="email" placeholder="Email" name="email" required class="finput">
+                     </div>
+                     <div class="lphone">
+                        <label for="" class="phone">Phone</label>
+                        <i class="fa-solid fa-star"></i>
+                        <input type="tel" placeholder="Phone num" name="phone" required>
+                    </div>
+                   </div>
+                    <input type="checkbox" name="check" class="checkb">
+                    <label for="">Creat an account?</label>
+                    <br>
+                    <input type="checkbox" name="check_02" class="checkb">
+                    <label for="">Ship To A Different Address?</label>
+                    <br>
+                    <label for="">Other Notes</label>
+                    <br>
+                    <textarea name="nootes"  cols="30" rows="10">Write your notes here...</textarea>
+                </form>
+            </fieldset>
+        </div>
+        <div class="right_side">  
+          <div class="cu_code">
+            <h2>
+              Coupon Code
+            </h2>
+            <div class="code">
+              <p>
+                Enter your coupon code if you have one 
+              </p>
+              <div class="email">
+                <input type="email" placeholder="Coupon Code">
+                <button> Apply </button>
+            </div>
+            </div>
+          </div>
+          <div class="your_order">
+            <h2>
+              Your Order
+            </h2>
+            <div class="order">
+              <table>
+                <tr class="frow">
+                  <td>
+                    Product
+                  </td>
+                  <td>
+                    Total
+                  </td>
+                </tr>
+                <tr class="secrow">
+                  <td>
+                    Top Up T-shirt x 1
+                  </td>
+                  <td class="column">
+                    $250.00
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Polo Shirt x 1 
+                  </td>
+                  <td class="column">
+                    $100.00
+                  </td>
+                </tr>
+                <tr >
+                  <td>
+                    Cart Subtotal
+                  </td>
+                  <td class="column">
+                    $2350.00
+                  </td>
+                </tr>
+                <trclass="frow">
+                  <td>
+                    Order Total
+                  </td>
+                  <td>
+                    $350.00
+                  </td>
+                </trclass=>
+              </table>
+              <div class="end_right">
+                <input type="text" placeholder="Direct Bank Transfer" class="end_input" style="color: purple;">
+                <br>
+                <input type="text" placeholder="Cheque Payment" class="end_input" style="color: purple;">
+                <br>
+                <input type="text" placeholder="Paypal" class="end_input" style="color: purple;">
+                <br>
+                <a href="thanks.html">
+                  <button>
+                    PLACE ORDER
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+         <!-- footer -->
+   <footer class="footer" id="footer" style="margin-top: 60px;">
+    <div class="all-footer">
+    <div class="left_footer">
+      <h5>
+        Navigation
+      </h5>
+      <div class="lists">
+        <ul>
+          <li>Sell online</li>
+          <li>Features</li>
+          <li>Shopping cart</li>
+          <li>Store Builder</li>
+        </ul>
+        <ul>
+          <li>Mobile commerce</li>
+          <li>Dropshipping</li>
+          <li>Website development</li>
+        </ul>
+        <ul>
+          <li>Point of sale</li>
+          <li>Hardware</li>
+          <li>Software</li>
+        </ul>
+      </div>
+    </div>
+        <div class="middle_footer">
+            <h5> Promo</h5>
+            <img src="images/hero_1.jpg" alt="medical" width="150px" height="150px">
+            <h4>Finding Your Perfect Shoes</h4>
+            <p>Promo from nuary 15 _ 25 , 2019</p>
+        </div>
+        <div class="right_footer">
+            <h5> Contact info </h5>
+            <div class="contact">
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>203 Fakest.Mountain View , San Francisco , California , USA</p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <p> +02 01012467440 - 01200462973</p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <p> esoodawood186@gmail.com  <br>
+                          m.hamza1533@gmail.com
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="email">
+                <h5>
+                    Subscribe
+                </h5>
+                <input type="email" placeholder="Email">
+                <button> Send </button>
+            </div>
+        </div>
+      </div>
+      <h3 class="end">
+        Copyright &#169; 2022 All rights reserved | This template is made with <i class="fa-solid fa-heart"></i> by <span style="color: purple;"> MES STORE  </span>
+    </h3>
+</footer>
+</body>
+</html>

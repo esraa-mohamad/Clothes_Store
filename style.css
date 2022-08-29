@@ -1,0 +1,1242 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* start of header */
+header {
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fafafa;
+  box-shadow: 0px 1px 10px gray;
+}
+.sear {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  position: static;
+}
+.fa-magnifying-glass {
+  position: absolute;
+  font-size: 12px;
+  left: 26px;
+}
+.search {
+  border: none;
+  font-size: 17px;
+  padding: 10px 0px 10px 20px;
+  border-radius: 50px;
+  background-color: #cfd8dc;
+}
+.search:focus {
+  outline: none;
+}
+header .title {
+  display: flex;
+  align-items: center;
+}
+.title h2 {
+  text-align: center;
+  font-size: 30px;
+  border: 1px solid black;
+  padding: 10px;
+  color: #ea80fc;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  position: relative;
+}
+.icons .fa-user,
+.fa-heart,
+.fa-cart-shopping {
+  padding-right: 12px;
+  font-size: 17px;
+  color: gray;
+}
+.icons .fa-user:hover,
+.fa-heart:hover,
+.fa-cart-shopping:hover {
+  color: black;
+}
+.fa-2 {
+  border: 1px solid #ea80fc;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  padding: 1px;
+  position: absolute;
+  top: 35px;
+  right: 1px;
+  background-color: #ea80fc;
+}
+/* end of header */
+
+/* start of nav */
+nav a {
+  margin: 20px;
+  font-size: 25px;
+  font-family: sans-serif;
+  color: gray;
+  text-decoration: none;
+}
+nav a:hover {
+  color: blueviolet;
+}
+nav {
+  text-align: center;
+  margin: 30px auto;
+}
+.active {
+  color: blueviolet;
+}
+/* end of nav */
+/* start of section shoes */
+.shoes-details {
+  background-color: rgb(51, 242, 217);
+  display: flex;
+  justify-content: space-around;
+  height: 500px;
+  width: 100%;
+}
+.shoes-details div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 15px;
+}
+.shoes-details .pragraph {
+  display: block;
+}
+.pragraph h1,
+h2 {
+  font-size: 35px;
+  padding-top: 15px;
+}
+.pragraph p {
+  padding-top: 15px;
+  font-size: 20px;
+}
+.pragraph button {
+  margin-top: 50px;
+  font-size: 15px;
+  color: white;
+  background-color: purple;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+}
+.pragraph button:hover {
+  transform: scale(1.2);
+  box-shadow: 5px 5px 5px rgb(61, 3, 61);
+}
+/* end of section shoes */
+
+/* start of section details */
+.details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 400px;
+  box-shadow: 0px 1px 10px gray;
+}
+.details-left,
+.middle-details,
+.right-details {
+  width: 300px;
+}
+.details-left,
+.middle-details,
+.right-details {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.fa-truck,
+.fa-question,
+.fa-arrow-rotate-left {
+  font-size: 50px;
+  color: purple;
+  margin-right: 25px;
+}
+.fa-question {
+  text-align: center;
+  color: white;
+  background-color: purple;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.details h3 {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.details p {
+  margin-top: 5px;
+  font-size: 15px;
+  font-family: sans-serif;
+  word-spacing: 2px;
+}
+/* end of section details */
+/* start of section collection  */
+.collections {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 80px 80px 80px;
+}
+.collections-img {
+  width: 420px;
+  height: 550px;
+}
+.collections-selector {
+  position: relative;
+}
+.select-details {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+.collections-img:hover {
+  transform: scale(1.05);
+  transition: transform 150ms cubic-bezier(0, 0, 0.38, 0.9);
+  cursor: pointer;
+}
+.select-details p {
+  text-transform: uppercase;
+  color: black;
+}
+.select-details h3 {
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+/* end of section collection  */
+
+/* start of section product-details  */
+.Products-details {
+  background-color: rgb(238, 234, 234);
+  text-align: center;
+  height: 700px;
+  position: relative;
+}
+.line {
+  width: 50px;
+  height: 5px;
+  background-color: gray;
+  color: gray;
+  position: absolute;
+  top: 50px;
+  left: 800px;
+}
+.Products-details h2 {
+  padding-top: 80px;
+  margin-bottom: 50px;
+}
+.Products-Detailed {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 95px 80px 95px;
+}
+
+.product-div {
+  background-color: white;
+  width: 420px;
+  height: 450px;
+}
+.product-div img {
+  width: 420px;
+}
+.product-div h3 {
+  color: purple;
+  font-size: 25px;
+  margin-top: 12px;
+}
+.product-div .pd {
+  color: rgb(181, 180, 180);
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.product-div p {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+/* end of section product-details  */
+
+/* start of big-Sale section  */
+.big-Sale {
+  text-align: center;
+  height: 650px;
+  position: relative;
+  box-shadow: 0px 1px 10px gray;
+}
+.line {
+  width: 50px;
+  height: 5px;
+  background-color: gray;
+  color: gray;
+  position: absolute;
+  top: 50px;
+  left: 720px;
+}
+
+.big-Sale h2 {
+  padding-top: 80px;
+  margin-bottom: 50px;
+}
+.big-sale-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 170px 100px 170px;
+}
+.big-sale-details h3 {
+  font-size: 35px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: purple;
+}
+.big-sale-details img {
+  width: 620px;
+  height: 350px;
+}
+.big-sale-details p {
+  width: 500px;
+}
+.div-det {
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+  align-items: center;
+  padding: 20px auto;
+}
+.div-det p {
+  color: rgb(206, 206, 206);
+  margin-top: 30px;
+}
+.div-det strong {
+  color: rgb(156, 154, 154);
+}
+.pph {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: rgb(167, 163, 163);
+  margin-top: 25px;
+  word-spacing: 1.5px;
+  margin-bottom: 20px;
+}
+.big-sale-details button {
+  font-size: 15px;
+  color: white;
+  background-color: purple;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  text-transform: uppercase;
+}
+button:hover {
+  transform: scale(1.2);
+  box-shadow: 5px 5px 5px rgb(61, 3, 61);
+}
+
+/* end of big-Sale section */
+/* footer */
+.footer
+{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color:#fafafa;
+}
+.footer .all-footer
+{
+    display: flex;
+    justify-content: space-around;
+}
+.footer .left_footer
+{
+    margin-left: 50px;
+}
+.left_footer h5 , .middle_footer h5 , .right_footer h5 
+{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.lists
+{
+    display: flex;
+    justify-content: space-around;
+}
+.lists li
+{
+    list-style-type: none;
+    padding: 15px;
+    font-size: 20px;
+    color: gray;
+    padding-right: 60px;
+}
+.middle_footer img
+{
+    width: 250px;
+    height: 150px;
+}
+.middle_footer h4
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ea80fc;
+}
+.middle_footer p
+{
+    font-size: 20px;
+    color: gray;
+}
+.right_footer
+{
+    width: 500px;
+    margin-right: 30px;
+}
+.right_footer li
+{
+    list-style-type: none;
+    display: flex;
+}
+.right_footer i
+{
+    color: purple; 
+    margin-right: 15px;
+    margin-bottom: 30px;
+    font-size: 20PX;
+}
+.right_footer p
+{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.email
+{
+    margin-top: 50px;
+}
+.email h5
+{
+    color: gray;
+    font-size: 25px;
+}
+.email input
+{
+    font-size: 20px;
+    padding: 16px;
+    position: relative;
+    width: 300px;
+}
+.email button
+{
+    font-size: 20px;
+    padding: 18px 20px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    right: 100px;
+
+}
+.footer .end
+{
+    text-align: center;
+    margin-top: 100px;
+}
+/* end of footer */
+/* start table */
+table {
+  border: 1px solid gray;
+  color: black;
+  margin: 50px auto;
+  width: 1300px;
+  border-collapse: collapse;
+}
+th {
+  font-weight: bold;
+  font-family: sans-serif;
+  padding: 20px;
+  color: black;
+}
+td img {
+  width: 210px;
+  height: 150px;
+  padding: 10px;
+}
+.td1 {
+  width: 240px;
+}
+.td2 {
+  width: 310px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: black;
+}
+.td3,
+.td5 {
+  width: 150px;
+  text-align: center;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 800;
+  color: rgb(203, 199, 199);
+}
+
+.td4 {
+  text-align: center;
+}
+
+.td4 button {
+  width: 30px;
+  height: 40px;
+  border-radius: 3px;
+  box-shadow: none;
+  transform: none;
+  font-size: 20px;
+  border: 1px solid gray;
+}
+.td4 button:hover {
+  background-color: purple;
+  color: white;
+}
+.td4 input {
+  width: 50px;
+  height: 32px;
+  border-radius: 3px;
+  text-align: center;
+  border-top: 1px solid rgb(201, 198, 198);
+  border-bottom: 1px solid rgb(201, 198, 198);
+  border-left: none;
+  border-right: none;
+  padding-top: 6px;
+}
+.td6 {
+  text-align: center;
+}
+.td6 button {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 20px;
+  border: none;
+  background-color: purple;
+  color: white;
+}
+
+/* end table */
+
+/* start checkout-sec  */
+.checkout-sec {
+  display: flex;
+  justify-content: space-between;
+  padding: 90px 100px 70px 100px;
+}
+.our-button {
+  display: flex;
+  justify-content: space-between;
+  width: 750px;
+}
+.b1,
+.check-btn {
+  text-align: center;
+  background-color: purple;
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  width: 340px;
+  border: none;
+  border-radius: 3px;
+  padding: 8px;
+}
+.check-btn {
+  width: 280px;
+  padding: 12px;
+  margin: 0 auto;
+}
+.b2 {
+  text-align: center;
+  background-color: white;
+  color: gray;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  width: 340px;
+  border: 2px solid gray;
+  border-radius: 3px;
+  padding: 8px;
+}
+.b2:hover {
+  transform: none;
+  box-shadow: none;
+  background-color: rgb(193, 190, 190);
+}
+.left-one h2 {
+  font-size: 35px;
+  font-family: sans-serif;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.left-one p {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 500;
+  color: rgb(169, 164, 164);
+  margin-bottom: 12px;
+}
+.copoun {
+  display: flex;
+}
+.copoun input {
+  color: gray;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: normal;
+  width: 480px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  padding: 8px;
+  margin-right: 30px;
+}
+.copoun button {
+  text-align: center;
+  background-color: purple;
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  width: 200px;
+  border: none;
+  border-radius: 3px;
+  padding: 8px;
+}
+.right-one {
+  width: 280px;
+}
+.right-one h2 {
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-top: 22px;
+  text-transform: uppercase;
+  text-align: right;
+}
+.sub1,
+.sub2 {
+  display: flex;
+  justify-content: space-between;
+}
+.sub1 p,
+.sub2 p {
+  margin-top: 35px;
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+.sub2 p {
+  margin-top: 18px;
+  margin-bottom: 45px;
+}
+/* end of checkout-sec */
+
+/* start of about section  */
+pre
+{
+    padding: 15px 60px;
+    background-color: #cfd8dc;
+    font-size: 25px;
+}
+.sec1{
+    display: flex;
+    justify-content:space-around;
+    height: 500px;
+    width: 100%;
+    margin-bottom: 120px;
+}
+.sec1 div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 30px;
+    
+}
+ .sec1 .oo {
+    display: block;
+
+}
+.oo h1{
+    font-size: 35px;
+    padding:0% ;
+    margin-left: 100px;
+}
+.oo h4{
+    padding-top: 15px;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 250px;
+} 
+.sec2 h1{
+display: flex;
+justify-content: center;
+margin-bottom: 200px;
+}
+.div1 .sec3 img{
+    border-radius: 70px;
+    margin-bottom: 10px;
+}
+.sec4{
+    display: block;
+    justify-content: space-between;
+    
+
+}
+.div1{
+    display: block;
+    justify-content: space-between;
+    justify-content: space-around;
+    text-align: center;
+}
+.div{
+    display: flex;
+    margin-bottom: 120px;
+}
+.sec2 .team h1{
+    display: flex;
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+/*  end about section  */
+/* start shop page  */
+.shop
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.left_shop
+{
+    margin-left: 50px;
+}
+.catigory
+{
+    border: 1px solid gray;
+    padding: 15px 30px;
+}
+.catigory h3
+{
+    font-size: 18px; 
+    font-weight:bold;
+}
+.catigory li
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    gap: 60px;
+    font-size: 25px;
+}
+.price
+{
+    border: 1px solid gray;
+    margin-top: 30px;
+    padding: 20px 20px;
+}
+.price .container
+{
+    margin-top: 20px;
+    width: 180px;
+    height: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.container .inside_container
+{
+    margin-left: 30px;
+    margin-right: 40px;
+    height: 100%;
+    font-size: 20px;
+    background-color: purple;
+    border-radius: 10px;
+    position: relative;
+}
+.price h3,h4
+{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.size li
+{
+    list-style-type: none;
+    margin-top:15px;
+    font-size: 15px;   
+}
+.color li
+{
+    list-style-type: none;
+    display: flex;
+    margin-bottom: 10px;
+}
+.color h6
+{
+    width: 10px;
+    border: 1px solid ;
+    border-radius: 100%;
+    margin-right: 8px;
+}
+.right_shop
+{
+    width: 80%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.right_shop .top
+{
+    display: flex;
+    justify-content: space-between;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 14px 16px;
+    background-color: #bdbdbd;
+    font-weight: bold; /* Important for vertical align on mobile phones */
+    margin-left: 10px; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+   .dropdown:hover .dropbtn {
+    background-color: gray;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  /* end of section shop */
+  /* start of section product-details  */
+.details-c{
+    text-align: center;
+    position: relative;
+}
+.Detailed{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0px 95px 80px 95px; */
+    margin-top: 50px;
+}
+
+.product{
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    margin-right: 12px;
+    border: 1px solid #eceff1;
+}
+.product img{
+    width: 100%;
+}
+.product h3{
+    color: purple;
+    font-size: 25px;
+    margin-top: 12px;
+    text-align: center;
+}
+.product .pd{
+    color: rgb(181, 180, 180);
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.product p{
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.numbers
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.numbers p
+{
+    color: purple;
+    font-size: 30px;
+    border: 1px solid purple;
+    margin-right: 10px;
+    border-radius:100%;
+    padding: 13px;
+}
+.numbers .fa-angle-left,.fa-angle-right
+{
+    font-size: 20px;
+    color: purple;
+    border: 1px solid purple;
+    border-radius: 100%;
+    padding: 20px;
+}
+.numbers .fa-angle-left
+{
+    margin-right: 15px;
+}
+/* end of section product-details  */
+/* start details page */
+.tshirt
+{
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.clothes
+{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 80px;
+}
+.cloth
+{
+    width: 80%;
+}
+.cloth img
+{
+    width: 400px;
+    height: 480px;
+    margin-right: 60px;
+}
+.cloth-details
+{
+    margin-left: 80px;
+    padding-top: 85px;
+}
+.cloth-details h2
+{
+    font-size: 40px;
+    font-weight: bold;
+}
+.cloth-details p
+{
+    font-size: 20px;
+    color: gray;
+    margin-top: 20px;
+    padding-right: 50px;
+}
+.cloth-details h3
+{
+    font-size: 30px;
+    color:#ea80fc;
+    margin-top: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cloth-details .radios
+{
+    margin-top: 40px;
+}
+.radios input
+{
+    font-size: 30px;
+}
+.radios label
+{
+    font-size: 18px;
+    color: gray;
+    padding-right: 25px;
+}
+.cloth-details .buttons
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.buttons
+{
+    display: flex;
+    justify-items: center;
+}
+.buttons button
+{
+    border-color: purple;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 15px;
+}
+.buttons h6
+{
+    font-size: 20px;
+    border-bottom: 1px solid purple;
+    border-top: 1px solid purple;
+    padding: 10px 30px;
+}
+.cloth-details .add
+{
+    margin-top: 50px;
+    font-size: 17px;
+    padding: 15px 20px;
+    border-radius: 6px;
+    background-color:#ea80fc;
+    border-color:#ea80fc;
+    color: white;
+   
+}
+/* end details page */
+
+/* start check out page */
+.beggining
+{
+  font-size: 25px;
+  margin-top: 50px;
+  margin: 70px 50px;
+  border: 1px solid black;
+  padding: 20px 25px;
+}
+.check
+{
+  display: flex;
+  justify-content: space-between;
+}
+.left_side 
+{
+  margin-right: 80px;
+  margin-left: 80px;
+}
+.left_side h2
+,.right_side h2
+{
+  margin-bottom: 30px;
+}
+.left_side .forma
+{
+  width: 450px;
+  padding: 60px 40px;
+}
+.forma label
+{
+  font-size: 25px;
+  font-weight: bold;
+}
+.forma .country
+,.fname
+,.lname
+,.address
+,.fstate
+,.posta
+,.email
+,.phone
+{
+  position: relative;
+}
+.forma .fa-star
+{
+  font-size: 5px;
+  color: red;
+  position: absolute;
+}
+.forma .names
+,.states
+,.emails
+{
+  display: flex;
+  justify-content: space-between;
+}
+.forma .selection
+,.company
+,.iaddress
+{
+  width: 95%;
+  margin: 15px 0px;
+  font-size: 20px;
+  color: gray;
+  padding: 15px 5px
+}
+.forma input
+{
+  font-size: 15px;
+  margin: 12px 0px;
+  padding: 15px 10px
+}
+.forma textarea
+{
+  margin-top: 20px;
+  width: 90%;
+}
+.forma .checkb
+{
+  margin: 15px 5px;
+}
+.right_side
+{
+  width: 100%;
+}
+.cu_code .code
+{
+  width: 80%;
+  padding: 35px 40px;
+  border: 1px solid black;
+}
+.code p
+{
+  font-size: 25px;
+  font-weight: bold;
+}
+.code .email input
+{
+    font-size: 20px;
+    padding: 16px;
+    position: relative;
+    width: 400px;
+}
+.code .email button
+{
+    font-size: 20px;
+    padding: 18px 20px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    right: 270px;
+}
+.your_order .order
+{
+  width: 80%;
+  padding: 35px 40px;
+  border: 1px solid black;
+}
+.order table
+{
+  width: 100%;
+  border: none;
+}
+.order tr
+{
+  border-bottom:1px solid black ;
+  font-size: 30px; 
+}
+.order .frow
+{
+  font-weight: bold;
+}
+.order .frow td
+{
+  padding: 20px;
+}
+.order .column
+{
+  color: gray;
+  font-size: 25px;
+  padding: 20px;
+}
+.order table .secrow
+{
+  padding: 20px 20px;
+  margin: 20px;
+}
+.end_right
+{
+  margin-top: 100px;
+}
+.end_right .end_input
+{
+  width: 100%;
+  font-size: 30px;
+  margin-bottom: 30px;
+  padding: 20px 0px 20px 15px;
+}
+.end_right button
+{
+  width: 100%;
+  background-color: purple;
+  color: white;
+  font-size: 25px;
+  padding: 15px 10px;
+  text-align: center;
+  margin-top: 30px;
+  border: none;
+  border-radius: 10px;
+}
+/* end chack  out page*/
+/* start page thanks */
+.thanks{
+  margin-top: 50px;
+  display: block;
+  text-align: center;
+  margin-top: 200px;
+}
+.thanks h1
+{
+  font-size: 55px;
+  font-weight: 700;
+  font-family: sans-serif;
+  margin-bottom: 30px;
+}
+.thanks p
+{
+  font-size: 20px;
+  color: gray;
+  font-family: sans-serif;
+  margin-bottom: 30px;
+}
+.thanks .fa-circle-check{
+  font-size: 60px;
+  color: green;
+  margin-bottom:30px ;
+}
+.thanks button
+{
+  background-color: #ea80fc;
+  padding: 5px 35px;
+  color: white;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 8px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  font-size: 25px;
+}
+/* end page thanks */
